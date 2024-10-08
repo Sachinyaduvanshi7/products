@@ -4,7 +4,7 @@ const PORT = 3002;
 const app = express();
 
 app.get("", (req, res) => {
-  res.send("Message from product service-4");
+  res.send("Message from product service-45");
 });
 
 app.listen(PORT, () => console.log("PRODUCT SERVICE STARTED"));
